@@ -5,8 +5,7 @@ full_name = 'Иванов Иван Иванович'
 print('Иванов{0}Иван{0}Иванович'.format('_'))
 
 # через f-string
-space = '_'
-print(f'Иванов{space}Иван{space}Иванович')
+print(f'Иванов{"_"}Иван{"_"}Иванович')
 
 # через join
 my_list_name = full_name.split()
